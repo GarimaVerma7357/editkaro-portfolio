@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editkaro portfolio</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">Editkaro.in</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Creative Video Editing portfolio</h1>
+        <p>Short Form • Gaming • Football • Anime • Ads • Documentary</p>
+
+        <a href="#portfolio">
+          <button class="hero-btn">Explore Portfolio</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2>Our Work</h2>
+      <input type="text" id="searchInput" placeholder="Search Projects..." />
+
+      <!-- Filters -->
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="shortform">Short Form</button>
+        <button class="filter-btn" data-filter="longform">Long Form</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+        <button class="filter-btn" data-filter="football">Football</button>
+        <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+        <button class="filter-btn" data-filter="documentary">
+          Documentary
+        </button>
+        <button class="filter-btn" data-filter="grading">Color Grading</button>
+        <button class="filter-btn" data-filter="anime">Anime</button>
+        <button class="filter-btn" data-filter="ads">Ads</button>
+      </div>
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <div class="card shortform">
+          <img src="images/shortform.jpg" />
+          <div class="overlay">
+            <h3>Short Form Reel</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card longform">
+          <img src="images/longform.jpg" />
+          <div class="overlay">
+            <h3>Long Form Edit</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card gaming">
+          <img src="images/gaming.jpg" />
+          <div class="overlay">
+            <h3>Gaming Montage</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card football">
+          <img src="images/football.jpg" />
+          <div class="overlay">
+            <h3>Football Edit</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card ecommerce">
+          <img src="images/ecommerce.jpg" />
+          <div class="overlay">
+            <h3>eCommerce Ad</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card documentary">
+          <img src="images/documentary.jpg" />
+          <div class="overlay">
+            <h3>Documentary Edit</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card grading">
+          <img src="images/grading.jpg" />
+          <div class="overlay">
+            <h3>Color Grading</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card anime">
+          <img src="images/anime.jpg" />
+          <div class="overlay">
+            <h3>Anime Edit</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+
+        <div class="card ads">
+          <img src="images/ads.jpg" />
+          <div class="overlay">
+            <h3>Advertisement</h3>
+            <button class="view-btn">View Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <h2>About Editkaro</h2>
+      <p>
+        We create engaging reels, gaming edits, advertisements, documentaries
+        and cinematic visual stories that help brands grow.
+      </p>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="stat-box">
+        <h3 class="counter" data-target="500">0</h3>
+        <p>Projects</p>
+      </div>
+
+      <div class="stat-box">
+        <h3 class="counter" data-target="100">0</h3>
+        <p>Clients</p>
+      </div>
+
+      <div class="stat-box">
+        <h3 class="counter" data-target="5">0</h3>
+        <p>Years Experience</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Project Details</h2>
+        <p>
+          Professional video editing project with cinematic transitions and
+          modern effects.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Editkaro.in | All Rights Reserved</p>
+    </footer>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
