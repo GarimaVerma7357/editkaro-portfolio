@@ -1,2 +1,2 @@
 # editkaro-portfolio
-portfolio website for Editkaro.in Assignment
+portfolio website for Editkaro.in 
